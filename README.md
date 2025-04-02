@@ -1,12 +1,12 @@
 # PNL_stimulation
 
-##Trading Strategy PNL_Simulation
+## Trading Strategy PNL_Simulation
 
-##Overview
+## Overview
 
 This Python script simulates a trading strategy over 254 trading days (approximately one year). The simulation models a trading approach with position sizing that scales with account balance while maintaining risk management through fixed reward/risk ratios and position limits.
 
-###Key Features
+### Key Features
 
 Dynamic Position Sizing: Contracts scale with account balance (1 contract per $5000)
 
@@ -24,7 +24,7 @@ Performance Tracking:
 
   - Shows account balance progression
 
-###Parameters
+### Parameters
 
 Parameter	Default Value	Description:
   - balance	5000	Starting account balance in dollars
@@ -40,7 +40,7 @@ Parameter	Default Value	Description:
 Output Metrics:
   - Trade-by-trade details: Shows each trade's outcome, balance, position size, and drawdown
 
-###Final performance statistics:
+### Final performance statistics:
 
 Ending account balance
 
@@ -50,7 +50,7 @@ Reward/risk ratio
 
 Maximum drawdown experienced
 
-###How to Use
+### How to Use
 
 Clone the repository or copy the script
 
@@ -60,7 +60,7 @@ Run the script: python trading_simulation.py
 
 Review the output in your terminal
 
-###Customization
+### Customization
 
 You can easily modify the simulation parameters to test different scenarios:
 
@@ -72,7 +72,7 @@ Modify balance_per_contract to change how quickly position sizes scale
 
 Change trade_count to simulate different time periods
 
-###Example Output
+### Example Output
 
 ```
 #1, $6,000.00, contracts: 0.5, reward: 500, risk: 250, draw: 0%, win: True
