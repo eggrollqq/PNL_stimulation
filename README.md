@@ -1,6 +1,4 @@
-# PNL_stimulation
-
-## Trading Strategy PNL_Simulation
+# Trading Strategy PNL_Simulation
 
 ## Overview
 
