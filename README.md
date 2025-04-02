@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python script simulates a trading strategy over 254 trading days (approximately one year). The simulation models a trading approach with position sizing that scales with account balance while maintaining risk management through fixed reward/risk ratios and position limits.
+This Python script simulates a trading strategy over 251 trading days (approximately one year). The simulation models a trading approach with position sizing that scales with account balance while maintaining risk management through fixed reward/risk ratios and position limits.
 
 ### Key Features
 
@@ -33,7 +33,7 @@ Parameter	Default Value	Description:
   - reward_points	20	Points gained on winning trades
   - risk_points	10	Points lost on losing trades
   - points_value	50	Dollar value per point
-  - trade_count	254	Number of trades to simulate (1 year)
+  - trade_count	251	Number of trades to simulate (1 year)
    
 Output Metrics:
   - Trade-by-trade details: Shows each trade's outcome, balance, position size, and drawdown
@@ -76,7 +76,7 @@ Change trade_count to simulate different time periods
 #1, $6,000.00, contracts: 0.5, reward: 500, risk: 250, draw: 0%, win: True
 #2, $5,750.00, contracts: 1, reward: 1,000, risk: 500, draw: 4%, win: False
 ...
-#254, $142,350.00, contracts: 28, reward: 28,000, risk: 14,000, draw: 12%, win: True
+#251, $142,350.00, contracts: 28, reward: 28,000, risk: 14,000, draw: 12%, win: True
 
 Final Results:
 Ending Balance: $142,350
