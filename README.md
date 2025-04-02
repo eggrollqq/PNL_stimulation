@@ -10,7 +10,7 @@ Dynamic Position Sizing: Contracts scale with account balance (1 contract per $5
 
 Risk Management:
 
-  - Fixed 2:1 reward:risk ratio (20 vs 10 points)
+  - Fixed 2:1 reward:risk ratio (example: 20 vs 10 points)
 
   - Maximum contracts capped at 100
 
